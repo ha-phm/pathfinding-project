@@ -1,0 +1,58 @@
+# ======================================
+# Node.js
+# ======================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Lock files (tuỳ chọn)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ======================================
+# Environment & Config
+# ======================================
+.env
+.env.local
+.env.*.local
+
+# ======================================
+# Logs
+# ======================================
+logs/
+*.log
+*.out
+*.err
+
+# ======================================
+# Build output
+# ======================================
+dist/
+build/
+public/
+
+# Nếu bạn build frontend và copy vào public thì public không cần push
+# Nếu muốn commit frontend thì giữ nguyên folder frontend/
+
+# ======================================
+# OS generated files
+# ======================================
+.DS_Store
+Thumbs.db
+
+# ======================================
+# IDE / Editor
+# ======================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ======================================
+# Misc
+# ======================================
+coverage/
+tmp/
