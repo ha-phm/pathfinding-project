@@ -1,0 +1,11 @@
+{
+  "name": "pathfinding-project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently --raw -n BACKEND,FRONTEND -c yellow,cyan \"npm --prefix backend start\" \"npm --prefix frontend start\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

@@ -69,7 +69,7 @@ function App() {
     setPath([]);
 
     try {
-      const response = await fetch('http://localhost:3001/findpath', {
+      const response = await fetch("http://localhost:3001/findpath", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -116,7 +116,7 @@ function App() {
 <button
   onClick={async () => {
     try {
-      const res = await fetch('http://localhost:3001/findpath', {
+      const res = await fetch("http://localhost:3001/findpath", {
 
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
